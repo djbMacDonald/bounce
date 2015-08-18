@@ -1,0 +1,86 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body, html {
+  width: max-content;
+}
+
+#top, #bottom {
+  height: 50px;
+}
+
+#middle {
+  height: 400px;
+}
+
+td {
+  width: 150px;
+  position: relative;
+}
+
+#player {
+  background-color: blue;
+  height: 40px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 35px;
+}
+
+.enemy {
+  background-color: red;
+  height: 50px;
+}
+
+.missile {
+  border-radius: 50%;
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+}
+
+#field {
+  border: 5px solid black;
+  display: inline-block;
+}
+
+#scoreboard {
+  display: inline-block;
+  vertical-align: top;
+  border: 3px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#scoreTitle {
+  margin-top: 0;
+}
+
+#score {
+  margin: 10px auto 0 auto;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.greyOut {
+  width: 450px;
+  height: 500px;
+  opacity: 0.7;
+  background-color: gray;
+  margin-top: -500px;
+}
